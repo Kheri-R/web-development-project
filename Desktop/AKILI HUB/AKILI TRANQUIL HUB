@@ -1,0 +1,138 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akili Tranquil Hub</title>
+    <style>
+        /* Updated CSS with dark green and mustard theme */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50; /* Dark green background */
+            color: #fff; /* White text color */
+        }
+
+        header {
+            background-color: #3498db; /* Blue header color */
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: #ecf0f1; /* Light gray link color */
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #bdc3c7; /* Lighter gray on hover */
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #34495e; /* Dark green section background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #f39c12; /* Mustard heading color */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #ecf0f1; /* Light gray link color */
+        }
+
+        a:hover {
+            color: #bdc3c7; /* Lighter gray on hover */
+        }
+
+        address {
+            color: #ecf0f1; /* Light gray address color */
+        }
+
+        /* Add more styles based on your design preferences */
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Akili Tranquil Hub</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#counselling">Counselling Services</a>
+            <a href="#offerings">Our Offerings</a>
+            <a href="#connect">Let's Connect</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Akili Tranquil Hub!</h2>
+        <p>Choose an option below:</p>
+        <ul>
+            <li><a href="#counselling">Explore Counselling Services</a></li>
+            <li><a href="#offerings">Discover Our Offerings</a></li>
+            <li><a href="#connect">Get in Touch</a></li>
+        </ul>
+    </section>
+
+    <section id="counselling">
+        <h2>BOOK A COUNSELLING SESSION</h2>
+        <ul>
+            <li>Face-to-Face Counselling</li>
+            <li>Donation-based counselling sessions</li>
+            <li>Wellbeing Workshops, events and Support Groups</li>
+            <li>A broad referral network</li>
+        </ul>
+        <p>Let’s work together to change mental health and wellbeing in Kenya</p>
+    </section>
+
+    <section id="offerings">
+        <h2>We offer</h2>
+        <ul>
+            <li>Online Counselling</li>
+            <li>Collaborate</li>
+            <li>DONATE</li>
+            <li>Volunteer</li>
+            <li>JOIN US</li>
+        </ul>
+    </section>
+
+    <section id="connect">
+        <h2>Let's Connect</h2>
+        <address>
+            Unit A033, 1st Floor,<br>
+            The Palms Emporium,<br>
+            The Palms Woodstock,<br>
+            145 Sir Lowry Road,<br>
+            Nairobi, Kenya 8000
+        </address>
+        <p>To book appointments, please call:</p>
+        <p>Phone: +254 792 508 315</p>
+        <p>For non-appointment enquiries please email <a href="mailto:info@akilitranquilhub.org.ke">info@akilitranquilhub.org.ke</a></p>
+    </section>
+
+</body>
+
+</html>

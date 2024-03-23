@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akili Tranquil Counselling Hub</title>
+    <style>
+        /* CSS styles for dark blue and mustard color theme */
+        body {
+            background-color: #22517f; /* Dark blue */
+            color: #21aa63; /* olive */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #34495e; /* Darker blue */
+            color: #ffffff;
+            padding: 10px 0;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #ffd700; /* Mustard */
+        }
+
+        footer {
+            background-color: #34495e; /* Darker blue */
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#fees">Fees and Availability</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">Frequently Asked Questions</a></li>
+                <li><a href="#register">Register as Counsellor</a></li>
+                <li><a href="#find">Find a Counsellor</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Akili Tranquil Counselling Hub</h1>
+            <p>We are a compassionate counselling service center focusing on providing holistic mental well-being</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Information about the founder, Roselyne Kheri, and the organization's mission.</p>
+        </section>
+        <section id="fees">
+            <h2>Fees and Availability</h2>
+            <p>Details about consultation, session formats, concessions, availability, and cancellation policy.</p>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>It was really nice having mzee as a therapist. I feel like I started to explain and understand my feelings much more. I was able to talk about my feelings. What I found very amazing was how compassionate he was, and how his tone of voice was very soothing and comforting.</p>
+                <p>Best Therapist! Very fruitful collaboration which triggered many discoveries and changes. I would recommend him to everyone. Great price-Value Relationship.</p>
+                <p>I felt safe to explore and talk about my issues to mzee. He understood me! Yes, someone other than me understood what I was going through. For many years, I thought I was crazy. He taught me that I wasn’t crazy, and there, I started to be and feel like a human!</p>
+            </div>
+        </section>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul>
+                <li><strong>What is the difference between counselling and psychotherapy?</strong></li>
+                <li><strong>How long do I need to see a counsellor for?</strong></li>
+                <li><strong>How do I know if I need to see a counsellor?</strong></li>
+                <li><strong>What happens in a counselling session?</strong></li>
+                <li><strong>Do I need a referral from my GP to see a counsellor?</strong></li>
+            </ul>
+        </section>
+        <section id="register">
+            <h2>Register as Counsellor</h2>
+            <p>Fill out the form below to register as a counsellor:</p>
+            <form id="counsellorForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <!-- Add more fields as needed -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="find">
+            <h2>Find a Counsellor</h2>
+            <p>Search for a counsellor and book a session:</p>
+            <form id="findCounsellorForm">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location"><br><br>
+                <label for="specialization">Specialization:</label>
+                <input type="text" id="specialization" name="specialization"><br><br>
+                <button type="submit">Search</button>
+            </form>
+            <div id="counsellorResults">
+                <!-- Search results will be dynamically populated here -->
+            </div>
+        </section>
+    </main>
+    <footer>
